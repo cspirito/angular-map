@@ -1,0 +1,10 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Angular Map</ion-title>
+</ion-navbar>
+
+<ion-content padding>
+  <google-map [lat]="latitude" [long]="longitude" [showMarker]="true" [readOnly]="true"></google-map>
+</ion-content>
